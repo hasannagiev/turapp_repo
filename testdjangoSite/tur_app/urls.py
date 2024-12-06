@@ -6,6 +6,8 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('qeydiyyat/', views.registration, name='qeydiyyat'),
     path('about/', views.about, name='qeydiyyat'),
-
+path('', views.index, name='index'),
+    path('qeydiyyat/', views.registration, name='qeydiyyat'),
+    path('about/', views.about, name='qeydiyyat'),
 ]
 
